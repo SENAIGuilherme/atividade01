@@ -1,0 +1,155 @@
+<!-- Página HTML feita por Rian -->
+<!DOCTYPE html>
+<!-- Início da estrutura HTML -->
+<html lang="PT-BR">
+<head>
+    <!-- Cabeçalho da página -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tim Berners-Lee</title>
+    <style>
+        /*Estilização da Página*/
+        body{
+            background-color: #FCF5E5; /*Cor do fundo da página, escolhi esse ton de branco pois ele deixa os olhos mais confortaveis comparado ao branco 100%*/
+            font-family: Arial, Helvetica, sans-serif; /* Fonte da página*/
+        }
+
+        .titulo{
+            text-align: center; /*Deixar o titulo centralizado*/
+        }
+    
+        .subTitulo{
+            text-decoration: underline; /*Deixar os Sub Titulos sublinhados*/
+        }
+    
+        .cabecalhoTabela{
+            background-color: #d3d3d3; /*Cor de fundo do cabeçalho da tabela, escolhi ela para diferenciar o cabeçalho do resto das informações*/
+        }
+    
+        table, th, td {
+            padding: 5px; /*Espaçamento entre a borda e o texto*/
+            border: 1px solid #ddd; /*Cor e tamanho da borda, escolhi essa cor pois o preto em si ficava muito forte e acabava deixando a tabela feia*/
+            border-collapse: collapse; /*Deixar as bordas da tabela unificadas*/
+        }
+    
+        li{
+            list-style-type: none; /*Retirar os pontos na frente do texto*/
+        }
+    
+        a{
+            text-decoration: none; /*Retirar o sublinhado dos links*/
+        }
+        
+        /*Fim da Estilização da Página*/
+    </style>
+</head>
+<body>
+    <!-- Corpo da página -->
+
+            <h1 class="titulo">Página do Rian</h1>
+
+    <hr>
+
+    <h1 style="text-decoration: underline;">Tim Berners-Lee</h1> <!--Deixando o texto sublinhado-->
+    <h2 class="subTitulo">Links</h2>
+    <ul>
+        <li>
+            <p><a href="https://pt.wikipedia.org/wiki/Tim_Berners-Lee">Clique aqui</a> para acessar a Biografia do Tim Berners-Lee nesta guia</p><!--Link para acessar uma página externa na mesma guia-->
+        </li>
+        <li>
+            <p><a target="_blank" href="https://pt.wikipedia.org/wiki/Tim_Berners-Lee">Clique aqui</a> para acessar a Biografia do Tim Berners-Lee em outra guia página</p><!--Link para acessar uma página externa em uma outra guia-->
+        </li>
+        <li>
+            <p><a href="#tabela">Clique aqui</a> para ir para a tabela</p> <!--Direcionar usuário para a tabela-->
+        </li>
+        <li>
+            <p><a href="fotoTimBerners.jpg">Clique aqui</a> para baixar a foto do Tim Berners-Lee</p> <!--Download da foto do Tim Berners-->
+        </li>
+        <li>
+            <p><a href="https://wa.me/3190000000">Clique aqui</a> entrar em contato via WhatsApp</p><!--Link para entrar em contato via WhatsApp-->
+        </li>
+        <li>
+            <p><a href="mailto:email@email.com">Clique aqui</a> entrar em contato via e-mail</p><!--Link para entrar em contato via e-mail-->
+        </li>
+
+    </ul>
+    <hr>
+
+    <h2 class="subTitulo">A vida de Tim Berners-Lee</h2>
+
+        <img src="fotoTimBerners.jpg" alt="Tim Berners-Lee" class="imgTim"> <!--Foto do Tim Berners-->
+              
+    <!-- Parágrafos -->    
+    <ul>
+        <li>
+            <h3>Vida e carreira</h3>
+            <p>Tim Berners-Lee, nascido em 1955, é um cientista da computação britânico conhecido como o criador da World Wide Web. Ele desenvolveu a Web enquanto trabalhava no CERN em 1989, criando ferramentas essenciais como HTML, HTTP e URLs, revolucionando o acesso global à informação.</p>
+        </li>
+        <li>
+            <h3>Criação da World Wide Web</h3>
+            <p>Sua invenção democratizou o conhecimento, permitindo conexões e comunicações sem precedentes em escala mundial. Em 1991, a primeira página da Web foi lançada, marcando o início de uma era digital que transformou a sociedade.</p>
+        </li>
+        <li>
+            <h3>Impacto e os esforços contínuos de Tim Berners-Lee</h3>
+            <p>Além de sua criação, Berners-Lee fundou o W3C e atua como defensor da neutralidade da rede, privacidade e inclusão digital, recebendo prêmios como o Turing e o título de Cavaleiro pela Rainha Elizabeth II.</p>
+        </li>
+    </ul>
+    <!-- Fim dos Parágrafos --> 
+    
+    
+    <h2 class="subTitulo">Tabela</h2>
+    <table id="tabela">
+        <!--Tabela-->
+        <!--Cabeçalho da tabela-->
+        <thead>
+            <tr class="cabecalhoTabela">
+                <th>Categoria</th>
+                <th>Informação</th>
+                <th>Impacto</th>
+                <th>Reconhecimento</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!--1° Linha da tabela-->
+                <td>Quem é?</td>
+                <td>Tim Berners-Lee, cientista da computação britânica</td>
+                <td>Pioneiro da internet moderna</td>
+                <td>Reconhecido como "Pai da Web"</td>
+            </tr>
+            <tr>
+                <!--2° Linha da tabela-->
+                <td>Invenção</td>
+                <td>Criador da World Wide Web (WWW) em 1989</td>
+                <td>Transformou a maneira como as informações são acessadas</td>
+                <td>Fundador do World Wide Web Consortium (W3C)</td>
+            </tr>
+            <tr>
+                <!--3° Linha da tabela-->
+                <td>Conceitos-chave</td>
+                <td>HTML, HTTP e URLs</td>
+                <td>Padronizou a estrutura básica da internet</td>
+                <td>Fundamental para a interoperabilidade online</td>
+            </tr>
+            <tr>
+                <!--4° Linha da tabela-->
+                <td>Reconhecidos</td>
+                <td>Prêmio Turing (2016), Cavaleiro pela Rainha (2004)</td>
+                <td>Inspirou gerações de tecnológicos e empreendedores</td>
+                <td>Estátua e homenagens globais</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4">Informações retiradas do ChatGPT</th>
+            </tr>
+        </tfoot>
+        <!--Fim da Tabela-->
+    </table>
+    <br>
+
+    <!-- Fim dop corpo da página -->
+</body>
+
+    <!-- Fim da estrutura HTML -->
+</html>
